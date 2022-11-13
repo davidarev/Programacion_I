@@ -2,17 +2,8 @@
 PROYECTO FINAL PROGRAMACIÓN I: JUEGO DEL AHORCADO (8 PUNTOS).
 Trabajo Realizado por David Arévalo Ortega y Carlos Bermúdez Expósito.
 Fecha de Inicio: 			28/12/2021.
-Fecha de Finalización: 		15/01/2022.
+Fecha de Finalización: 			15/01/2022.
 Fecha de Entrega: 			16/01/2022.
-AUTOR DE LOS APARTADOS DE LA RÚBRICA DEL TRABAJO (mayoritariamente):
-	Apartado 1 	-->		(2 pts) 	Realizado por David.
-	Apartado 2 	-->		(1 pt)	 	Realizado por David.
-	Apartado 3 	-->		(1,5 pts) 	Realizado por David.
-	Apartado 4 	-->		(1,5 pts) 	Realizado por Carlos.
-	Apartado 5 	-->		(2 pts) 	Realizado por Carlos.
-	Apartado 6 	-->		(2 pts) 	Realizado por Carlos.
-Porcentaje de nota David: 	45%.
-Porcentaje de nota Carlos: 	55%.
 La realizacion y la compilacion del trabajo se ha llevado a cabo en Visual Studio Code, Qt Creator y replit.com.
 */
 
@@ -30,7 +21,7 @@ using namespace std;
 const int GANADOR = 7; //Número que representa que el usuario ganó
 const int PERDEDOR = 0; //Número que representa que el usuario perdió
 int vidas = 3;
-const string ARCHIVO_PALABRAS = "C:/Users/Usuario/Documents/Algoritmos/trabajobermu2/palabras.txt";  //Archivo con la lista de palabras a usar
+const string ARCHIVO_PALABRAS = "C:/Users/Usuario/Documents/Nebrija/Progra1/Proyecto_Final/palabras.txt";  //Archivo con la lista de palabras a usar
 
 struct Palabras{
 	vector<string> palabritas;
