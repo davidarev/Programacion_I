@@ -12,5 +12,5 @@ int main(){
     num2 = num3;
     producto += num3;
   }
-  cout << "La suma de los primeros 20 elementos es: " << producto;
+  cout << "La suma de los primeros 20 elementos de la serie Fibonacci es: " << producto;
 }
