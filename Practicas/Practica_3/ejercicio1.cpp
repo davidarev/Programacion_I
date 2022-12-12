@@ -19,7 +19,7 @@ int main() {
     cout << "La frase no tiene ninguno de los signos ';', '!' y '?' \n";
   }
   else{
-    cout << "La frase tiene los signos ';', '!' o '?' \n";
+    cout << "La frase tiene los signos ';', '!' o '?', en concreto " << contadorSignos << endl;
     /*for(auto elem: frase){
       if(elem == ' ' || elem == ';' || elem == '?' || elem == '!'){
           
